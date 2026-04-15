@@ -12,7 +12,7 @@ int rekursif(int angka, int count) {
 
 void hasil(int angka[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("Langkah %d\n", rekursif(angka[i], 0));
+        printf("LANGKAH %d\n", rekursif(angka[i], 0));
     }
 }
 
